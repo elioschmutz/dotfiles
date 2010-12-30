@@ -9,7 +9,7 @@
     branch = auto
 [core]
     excludesfile = <%= ENV['HOME'] %>/.gitignore
-    editor = open -We
+    editor = /usr/local/Cellar/emacs/HEAD/Emacs.app/Contents/MacOS/bin/emacsclient
     autocrlf = input
 [apply]
     whitespace = nowarn
@@ -19,7 +19,7 @@
     user = <%= print("GitHub Username: "); STDOUT.flush; STDIN.gets.chomp %>
     token = <%= print("GitHub API Token: "); STDOUT.flush; STDIN.gets.chomp %>
 [mergetool.ediff]
-    cmd = /usr/bin/emacsclient --eval \"(progn  (defun ediff-write-merge-buffer ()    (let ((file ediff-merge-store-file))      (set-buffer ediff-buffer-C)      (write-region (point-min) (point-max) file)      (message \\\"Merge buffer saved in: %s\\\" file)      (set-buffer-modified-p nil)      (sit-for 1)))  (setq ediff-quit-merge-hook 'ediff-write-merge-buffer)   (ediff-merge-files-with-ancestor \\\"$LOCAL\\\" \\\"$REMOTE\\\"                                   \\\"$BASE\\\" nil \\\"$MERGED\\\"))\"
+    cmd = /usr/local/Cellar/emacs/HEAD/Emacs.app/Contents/MacOS/bin/emacsclient --eval \"(progn  (defun ediff-write-merge-buffer ()    (let ((file ediff-merge-store-file))      (set-buffer ediff-buffer-C)      (write-region (point-min) (point-max) file)      (message \\\"Merge buffer saved in: %s\\\" file)      (set-buffer-modified-p nil)      (sit-for 1)))  (setq ediff-quit-merge-hook 'ediff-write-merge-buffer)   (ediff-merge-files-with-ancestor \\\"$LOCAL\\\" \\\"$REMOTE\\\"                                   \\\"$BASE\\\" nil \\\"$MERGED\\\"))\"
 [push]
     default = tracking
 [branch]

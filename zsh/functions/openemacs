@@ -1,8 +1,8 @@
 #!/usr/bin/env zsh
 
 if [ -f ~/.emacsserver ]; then
-    emacsclient $1
+    emacsclient $*
 else
-    open -a emacs $1
+    open -a emacs $*
 fi
 
