@@ -6,7 +6,6 @@ alias la='ls -lA'
 alias l='la'
 alias grep='grep --color'
 alias Preview='/Applications/Preview.app/Contents/MacOS/Preview'
-alias wget='curl -O'
 
 # emacs
 alias e='openemacs '
