@@ -8,7 +8,7 @@ alias grep='grep --color'
 alias Preview='/Applications/Preview.app/Contents/MacOS/Preview'
 
 # emacs
-alias e='openemacs '
+alias e='/usr/local/Cellar/emacs/HEAD/Emacs.app/Contents/MacOS/bin/emacsclient'
 
 # VIM
 alias gvimp='gvim -p'
