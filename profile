@@ -3,6 +3,7 @@
 # Setting the path for MacPorts.
 export PATH=/opt/subversion/bin:$PATH
 export PATH=$HOME/bin:$HOME/.bin:$HOME/.willgit/bin:$PATH
+export PATH=~/projects/ftw.manager/bin:$PATH
 export VISUAL=vi
 export PS1='\033[01;32m\]\u\033[00m\]:\033[0;33m\]`echo \$prompt`\033[00m\]:\w\033[0;33m\]\$ \033[00m\]'
 export LC_ALL=en_US.UTF-8
@@ -20,6 +21,8 @@ alias ..='cd ..'
 alias grep='grep --color'
 alias Preview='/Applications/Preview.app/Contents/MacOS/Preview'
 alias gvimp='gvim -p'
+alias mtc='mate ./docs/HISTORY.txt'
+
 
 alias apache2ctl='sudo /opt/local/apache2/bin/apachectl'
 alias mysqlstart='sudo mysqld_safe5 &'

@@ -2,7 +2,7 @@
 
 PS1='%3~$(git_branch_for_prompt)%# '
 #PS1='%3~$(git_branch_for_prompt)$%# '
-export EDITOR='/usr/local/Cellar/emacs/HEAD/Emacs.app/Contents/MacOS/bin/emacsclient'
+#export EDITOR='/usr/local/Cellar/emacs/HEAD/Emacs.app/Contents/MacOS/bin/emacsclient'
 PATH="/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/git/bin:$PATH"
 PATH="$HOME/bin:$HOME/.bin:$HOME/.willgit/bin:$PATH"
 PATH="/Library/Frameworks/Python.framework/Versions/2.4.6/bin/:$PATH"
@@ -24,8 +24,8 @@ fpath=(~/.zsh/functions $fpath)
 autoload -U ~/.zsh/functions/*(:t)
 
 HISTFILE=~/.zsh_history
-HISTSIZE=100
-SAVEHIST=100
+HISTSIZE=1000
+SAVEHIST=1000
 
 setopt NO_BEEP
 setopt NO_BG_NICE # don't nice background tasks
@@ -71,3 +71,10 @@ bindkey "^O"    overwrite-mode          # Ctrl+O
 # configuration for emacs multi-term.el compatibility
 bindkey "\ef"    forward-word
 bindkey "\eb"    backward-word
+
+# Oracle plunder
+export ORACLE_HOME=/Users/elio.schmutz/Library/OracleInstantClient_10_2
+export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${ORACLE_HOME}/lib
+export DYLD_LIBRARY_PATH=${DYLD_LIBRARY_PATH}:${ORACLE_HOME}/lib
+
+

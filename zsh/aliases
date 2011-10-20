@@ -1,12 +1,38 @@
 #!/bin/zsh
 
+
+# elio
+alias migration='cd ~/Documents/Migration'
+alias izug='cd ~/projects/izug_projects'
+alias og='cd ~/projects/opengever'
+alias edubs='cd ~/projects/edubs'
+alias belimo='cd ~/projects/belimo'
+alias tamedia='cd ~/projects/tamedia'
+alias zug='cd ~/projects/zug'
+alias egov='cd ~/projects/egov_projects'
+alias pc='echo -n `pwd` | pbcopy'
+alias d='bin/develop up -v'
+alias b='bin/buildout'
+alias i='bin/instance fg'
+alias i0='bin/instance0 fg'
+alias i1='bin/instance1 fg'
+alias i2='bin/instance2 fg'
+alias i3='bin/instance3 fg'
+alias i4='bin/instance4 fg'
+alias i5='bin/instance5 fg'
+alias i6='bin/instance6 fg'
+alias i7='bin/instance7 fg'
+alias i8='bin/instance8 fg'
+
+
+
 alias ls='ls -Gh'
 alias ll='ls -l'
 alias la='ls -lA'
 alias l='la'
 alias grep='grep --color'
 alias Preview='/Applications/Preview.app/Contents/MacOS/Preview'
-
+alias mtc='mate ./docs/HISTORY.txt'
 # emacs
 alias e='/usr/local/Cellar/emacs/HEAD/Emacs.app/Contents/MacOS/bin/emacsclient'
 
@@ -22,7 +48,7 @@ alias apache2ctl='sudo /opt/local/apache2/bin/apachectl'
 alias mysqlstart='sudo mysqld_safe5 &'
 alias mysqlstop='mysqladmin5 -u root shutdown'
 alias mysql='mysql5'
-alias fakemail='sudo ~/bin/fakemail.py --host=localhost --port=25 --path=/Users/jone/temp/mails --background'
+alias fakemail='sudo ~/bin/fakemail.py --host=localhost --port=25 --path=/Users/elio.schmutz/temp/mails'
 
 # rails
 alias rss='script/server'
@@ -56,7 +82,7 @@ alias gsm='git submodule init'
 alias gso='git show'
 alias gsv='git svn'
 alias gt='git tag'
-
+alias gcu='echo -n `git remote show origin | grep "Fetch URL" | cut -d " " -f 5`|pbcopy' 
 
 # subversion
 alias setSvnExternals='svn propset svn:externals -F ./EXTERNALS.TXT .'
