@@ -25,8 +25,8 @@ alias mtc='mate ./docs/HISTORY.txt'
 
 
 alias apache2ctl='sudo /opt/local/apache2/bin/apachectl'
-alias mysqlstart='sudo mysqld_safe5 &'
-alias mysqlstop='mysqladmin5 -u root -p shutdown'
+#alias mysqlstart='sudo mysqld_safe5 &'
+#alias mysqlstop='mysqladmin5 -u root -p shutdown'
 
 # GIT
 alias git-b='git-branch -a'
