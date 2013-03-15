@@ -3,6 +3,7 @@
 
 # elio
 alias migration='cd ~/Documents/Migration'
+alias dev='cd ~/projects/development'
 alias izug='cd ~/projects/izug_projects'
 alias og='cd ~/projects/opengever'
 alias edubs='cd ~/projects/edubs'
@@ -10,6 +11,7 @@ alias belimo='cd ~/projects/belimo'
 alias tamedia='cd ~/projects/tamedia'
 alias zug='cd ~/projects/zug'
 alias egov='cd ~/projects/egov_projects'
+alias teamraum='cd ~/projects/teamraum'
 alias pc='echo -n `pwd` | pbcopy'
 alias d='bin/develop up -v'
 alias b='bin/buildout'
