@@ -21,7 +21,7 @@ alias ..='cd ..'
 alias grep='grep --color'
 alias Preview='/Applications/Preview.app/Contents/MacOS/Preview'
 alias gvimp='gvim -p'
-alias mtc='mate ./docs/HISTORY.txt'
+alias mtc='sub ./docs/HISTORY.txt'
 
 
 alias apache2ctl='sudo /opt/local/apache2/bin/apachectl'

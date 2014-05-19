@@ -26,7 +26,13 @@ alias i6='bin/instance6 fg'
 alias i7='bin/instance7 fg'
 alias i8='bin/instance8 fg'
 
-
+# ssh
+alias tau='ssh -A zope@tau.4teamwork.ch'
+alias omega='ssh -A zope@omega.4teamwork.ch'
+alias chi='ssh -A zope@chi.4teamwork.ch'
+alias poseidon='ssh -A zope@poseidon.4teamwork.ch'
+alias delta='ssh -A zope@delta.4teamwork.ch'
+alias sigma='ssh -A zope@sigma.4teamwork.ch'
 
 alias ls='ls -Gh'
 alias ll='ls -l'
@@ -34,7 +40,7 @@ alias la='ls -lA'
 alias l='la'
 alias grep='grep --color'
 alias Preview='/Applications/Preview.app/Contents/MacOS/Preview'
-alias mtc='mate ./docs/HISTORY.txt'
+alias mtc='sub ./docs/HISTORY.txt'
 # emacs
 alias e='/usr/local/Cellar/emacs/HEAD/Emacs.app/Contents/MacOS/bin/emacsclient'
 
@@ -62,7 +68,7 @@ alias ga.='ga .'
 alias ga='git add'
 alias gb='git branch -v'
 alias gba='git branch -a -v'
-alias gc='git commit -v'
+alias gc='git commit -m'
 alias gca='git commit -v -a'
 alias gco='git checkout'
 alias gcount='git shortlog -sn'
@@ -85,7 +91,7 @@ alias gso='git show'
 alias gsv='git svn'
 alias gt='git tag'
 alias gcu='echo -n `git remote show origin | grep "Fetch URL" | cut -d " " -f 5`|pbcopy' 
-
+alias gpf='git push --force'
 # subversion
 alias setSvnExternals='svn propset svn:externals -F ./EXTERNALS.TXT .'
 alias setSvnIgnore='svn propset svn:ignore -F ./IGNORE.TXT .'

@@ -77,4 +77,7 @@ export ORACLE_HOME=/Users/elio.schmutz/Library/OracleInstantClient_10_2
 export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${ORACLE_HOME}/lib
 export DYLD_LIBRARY_PATH=${DYLD_LIBRARY_PATH}:${ORACLE_HOME}/lib
 
+# pythons
+export PYTHON26="/opt/local/bin/python2.6"
+export PYTHON27="/opt/local/bin/python2.7"
 
