@@ -1,18 +1,16 @@
-Dotfiles
-========
+Sublime Text 3 - Configuration
+==============================
+This is a well tested sublime text 3 configuration.
 
 Installation
 ------------
-
-```sh
-sh ./install.sh
+```zsh
+cd ~/Library/Application Support/Sublime Text 3/Packages/
+rm -rf ./User
+git clone git@github.com:elioschmutz/sublimetext3-config
 ```
 
-Sublime Text 3 - Configuration
-------------------------------
-This is a well tested sublime text 3 configuration.
-
-After installing the dotfiles, restart your sublime and install all the packages listed below.
+restart your sublime and install all the packages listed below.
 
 Packages installed
 ------------------

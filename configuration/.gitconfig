@@ -1,0 +1,23 @@
+[user]
+        name = Elio Schmutz
+        email = e.schmutz@4teamwork.ch
+[alias]
+    co = checkout
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+[core]
+    excludesfile = /Users/elioschmutz/.gitignore_global
+    editor = /usr/bin/vim
+    autocrlf = input
+[apply]
+    whitespace = nowarn
+[format]
+    pretty = %C(blue)%h%Creset %s %C(green)%d%Creset [%C(red)%an%Creset, %C(cyan)%cr%Creset] %C(bold reverse)%N%Creset
+[mergetool.ediff]
+    cmd = opendiff
+[push]
+    default = tracking
+[branch]
+    autosetuprebase = always

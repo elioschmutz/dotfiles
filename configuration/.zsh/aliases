@@ -1,0 +1,76 @@
+#!/bin/zsh
+
+# ssh
+alias tau='ssh -A zope@tau.4teamwork.ch'
+alias omega='ssh -A zope@omega.4teamwork.ch'
+alias chi='ssh -A zope@chi.4teamwork.ch'
+alias poseidon='ssh -A zope@poseidon.4teamwork.ch'
+alias delta='ssh -A zope@delta.4teamwork.ch'
+alias sigma='ssh -A zope@sigma.4teamwork.ch'
+alias pi='ssh -A zope@pi.4teamwork.ch'
+alias eta='ssh -A zope@eta.4teamwork.ch'
+
+alias ls='ls -Gh'
+alias ll='ls -l'
+alias grep='grep --color'
+alias Preview='/Applications/Preview.app/Contents/MacOS/Preview'
+alias mtc='sub ./docs/HISTORY.txt'
+
+# Apache / mysql
+alias amstart='sudo /opt/local/apache2/bin/apachectl start; sudo /opt/local/bin/mysqld_safe5 &'
+alias apache2ctl='sudo /opt/local/apache2/bin/apachectl'
+#alias mysqlstart='sudo mysqld_safe5 &'
+#alias mysqlstop='mysqladmin5 -u root shutdown'
+#alias mysql='mysql5'
+
+# git
+alias gc='git commit -m'
+alias gcp='git cherry-pick'
+alias glog='git log --graph'
+alias gp='git push'
+alias gcu='echo -n `git remote show origin | grep "Fetch URL" | cut -d " " -f 5`|pbcopy'
+alias gpf='git push --force'
+alias grm='git rebase -i master'
+
+alias testmail=~/bin/fakemail.py --host=localhost --port=8025 --path=~/ --open
+
+rationalise-dot() {
+if [[ $LBUFFER = *.. ]]; then
+    LBUFFER+=/..
+else
+    LBUFFER+=.
+fi
+}
+zle -N rationalise-dot
+bindkey . rationalise-dot
+
+alias ..='cd ..'
+alias ../..='cd ../..'
+alias ../../..='cd ../../..'
+alias ../../../..='cd ../../../..'
+alias ../../../../..='cd ../../../../..'
+alias ../../../../../..='cd ../../../../../..'
+
+#Extensions
+alias -s pdf=preview
+alias -s odt=preview
+alias -s doc=preview
+alias -s docx=preview
+alias -s rtf=preview
+alias -s ods=preview
+alias -s xls=preview
+alias -s xlsx=preview
+alias -s odp=preview
+alias -s ppt=preview
+alias -s pptx=preview
+
+alias -s htm=chrome
+alias -s html=chrome
+alias -s xml=chrome
+
+alias -s png=preview
+alias -s jpg=preview
+alias -s gif=preview
+
+alias -s php=php
+alias -s py=python
