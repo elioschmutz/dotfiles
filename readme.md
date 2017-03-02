@@ -4,7 +4,9 @@ Dotfiles
 Installation
 ------------
 
-```sh
+```zsh
+git clone git@github.com:elioschmutz/sublimetext3-config ~/.dotfiles
+cd ~/.dotfiles
 sh ./install.sh
 ```
 
@@ -15,7 +17,7 @@ This is a well tested sublime text 3 configuration.
 After installing the dotfiles, restart your sublime and install all the packages listed below.
 
 Packages installed
-------------------
+~~~~~~~~~~~~~~~~~~
 Packae Installer
 - Package control: https://packagecontrol.io/installation#st3
 
