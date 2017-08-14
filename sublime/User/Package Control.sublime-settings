@@ -10,6 +10,7 @@
 		"Clipboard Diff",
 		"Color Highlighter",
 		"ESLint",
+		"Git",
 		"GitSavvy",
 		"HTML-CSS-JS Prettify",
 		"Jedi - Python autocompletion",
@@ -23,6 +24,7 @@
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-flake8",
-		"TrailingSpaces"
+		"TrailingSpaces",
+		"TypeScript"
 	]
 }

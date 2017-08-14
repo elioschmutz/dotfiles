@@ -2,8 +2,7 @@ bin
 .installed.cfg
 .mr.developer.cfg
 develop-eggs
-parts
-src
+pars
 var
 var_
 *.mo

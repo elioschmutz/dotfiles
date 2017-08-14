@@ -7,6 +7,7 @@ PATH="$HOME/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/u
 PATH="$HOME/.bin:$HOME/.willgit/bin:$PATH"
 PATH="/Library/Frameworks/Python.framework/Versions/2.4.6/bin/:$PATH"
 PATH="/System/Library/Frameworks/Python.framework/Versions/2.4/bin/:$PATH"
+PATH="$HOME/.rbenv/bin:$PATH"
 export PATH=/opt/subversion/bin:$PATH
 MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
 TERM="xterm"; export TERM               # for the linux servers: use normal xterm
@@ -68,4 +69,4 @@ export PYTHON26="/opt/local/bin/python2.6"
 export PYTHON27="/opt/local/bin/python2.7"
 
 #rbenv
-#eval "$(rbenv init - zsh)"
+eval "$(rbenv init - zsh)"
