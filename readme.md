@@ -5,14 +5,14 @@ Installation
 ------------
 
 ```zsh
-git clone git@github.com:elioschmutz/sublimetext3-config ~/.dotfiles
+git clone git@github.com:elioschmutz/dotfiles ~/.dotfiles
 cd ~/.dotfiles
 sh ./install.sh
 ```
 
 Sublime Text 3 - Configuration
 ------------------------------
-This is a well tested sublime text 3 configuration.
+This Dotfiles including a well tested sublime text 3 configuration.
 
 After installing the dotfiles, restart your sublime and install all the packages listed below.
 
