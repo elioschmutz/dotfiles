@@ -31,7 +31,7 @@ alias gp='git push'
 alias gcu='echo -n `git remote show origin | grep "Fetch URL" | cut -d " " -f 5`|pbcopy'
 alias gpf='git push --force'
 alias grm='git rebase -i master'
-
+alias amend='git add .; git commit --amend'
 alias testmail=~/bin/fakemail.py --host=localhost --port=8025 --path=~/ --open
 
 rationalise-dot() {
