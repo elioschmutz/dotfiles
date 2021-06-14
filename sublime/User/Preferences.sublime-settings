@@ -4,11 +4,12 @@
 	[
 		{
 			"characters": ".",
-			"selector": "source.python"
+			"selector": "source.python",
 		}
 	],
-	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Yesterday.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Wallaby/Boxy Yesterday.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
+
 	"file_exclude_patterns":
 	[
 		"bootstrap.py",
@@ -50,13 +51,17 @@
 		"develop-eggs",
 		"*egg-info",
 		"var",
-		"var_"
+		"var_",
+		"__pycache__",
+		".cache",
+		"parts/solr"
 	],
-	"font_size": 12,
+	"font_size": 11,
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"GitSavvy",
+		"Vintage",
 	],
 	"indent_guide_options":
 	[
@@ -67,6 +72,14 @@
 	[
 		"*.log",
 		"*.min.js"
+	],
+	// Sets whether the indexer should exclude files ignored by git
+	"index_exclude_gitignore": true,
+	"original_color_scheme": "Packages/Color Scheme - Wallaby/Boxy Yesterday.tmTheme",
+	"rulers":
+	[
+		80,
+		125
 	],
 	"shift_tab_unindent": false,
 	"skin": "Boxy Theme/Boxy Yesterday ★ Atom",
@@ -94,5 +107,4 @@
 	"ui_separator": true,
 	"ui_wide_scrollbars": true,
 	"use_tab_stops": false,
-	"rulers": [80, 125]
 }
