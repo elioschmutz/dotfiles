@@ -5,7 +5,7 @@ develop-eggs
 pars
 var
 var_
-*.mo
+#*.mo
 *.pyc
 *.class
 *.swo
@@ -19,3 +19,7 @@ var_
 graph.pdf
 *.egg-info
 uuid.txt
+.vscode
+venv
+*.ignore
+.git-blame-ignore-revs

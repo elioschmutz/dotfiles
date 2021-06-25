@@ -8,6 +8,7 @@ PATH="$HOME/.bin:$HOME/.willgit/bin:$PATH"
 PATH="/Library/Frameworks/Python.framework/Versions/2.4.6/bin/:$PATH"
 PATH="/System/Library/Frameworks/Python.framework/Versions/2.4/bin/:$PATH"
 PATH="$HOME/.rbenv/bin:$PATH"
+PATH="$HOME/Library/Android/sdk:$HOME/Library/Android/sdk/platform-tools:$PATH"
 export PATH=/opt/subversion/bin:$PATH
 MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
 TERM="xterm"; export TERM               # for the linux servers: use normal xterm
@@ -19,9 +20,10 @@ export LSCOLORS='dxfxcxdxbxegedabagacad'  # default: exfxcxdxbxegedabagacad , se
 export WORDCHARS='*?_[]~=&;!#$%^(){}:|'
 
 cdpath=($cdpath ~/code)
-fpath=(~/.zsh/functions $fpath)
+fpath=(~/.zsh/functions ~/.zsh/completions $fpath)
 
 autoload -U ~/.zsh/functions/*(:t)
+autoload -Uz compinit && compinit -i
 
 HISTFILE=~/.zsh_history
 HISTSIZE=1000
@@ -64,9 +66,12 @@ bindkey "^W"    delete-word             # Ctrl+W
 bindkey "^D"    backward-delete-word    # Ctrl+D
 bindkey "^O"    overwrite-mode          # Ctrl+O
 
+# GEVER
+export GEVER_BUILDOUT=/Users/elioschmutz/projects/opengever.core
+export LDFLAGS="-L/usr/local/opt/openssl@1.1/lib"
+export CPPFLAGS="-I/usr/local/opt/openssl@1.1/include"
 # pythons
 export PYTHON26="/opt/local/bin/python2.6"
 export PYTHON27="/opt/local/bin/python2.7"
-
 #rbenv
 eval "$(rbenv init - zsh)"

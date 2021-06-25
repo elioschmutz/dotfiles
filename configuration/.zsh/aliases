@@ -16,6 +16,11 @@ alias grep='grep --color'
 alias Preview='/Applications/Preview.app/Contents/MacOS/Preview'
 alias mtc='sub ./docs/HISTORY.txt'
 
+# 4tw
+alias sgu='cd ~/projects/gever-ui'
+alias sgc='cd ~/projects/opengever.core'
+alias sgd='cd ~/projects/opengever-deployments'
+
 # Apache / mysql
 alias amstart='sudo /opt/local/apache2/bin/apachectl start; sudo /opt/local/bin/mysqld_safe5 &'
 alias apache2ctl='sudo /opt/local/apache2/bin/apachectl'
@@ -31,9 +36,20 @@ alias gp='git push'
 alias gcu='echo -n `git remote show origin | grep "Fetch URL" | cut -d " " -f 5`|pbcopy'
 alias gpf='git push --force'
 alias grm='git rebase -i master'
+alias grom='git fetch; git rebase -i origin/master'
+alias gac='git add .; git commit -m "gac"';
 alias amend='git add .; git commit --amend'
 alias testmail=~/bin/fakemail.py --host=localhost --port=8025 --path=~/ --open
-
+alias gacr='git add .; git commit -m "gra"; git rebase -i origin/master'
+alias wip='git add .; git commit -m '"wip";
+alias poc='git add .; git commit -m '"poc";
+alias grc='git rebase --continue'
+alias gdc='git diff --cached'
+# Git rewrite time - useful to fix github sort order issues
+alias rwt='git commit --amend --no-edit --date=now; git rebase --continue'
+alias gl='git log'
+alias gla='git log --graph --all'
+alias gca='git commit --amend'
 rationalise-dot() {
 if [[ $LBUFFER = *.. ]]; then
     LBUFFER+=/..
@@ -74,3 +90,8 @@ alias -s gif=preview
 
 alias -s php=php
 alias -s py=python
+
+# JS
+yt() {
+  yarn test:unit $1 --watch;
+}

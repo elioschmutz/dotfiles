@@ -7,7 +7,7 @@
 			"selector": "source.python",
 		}
 	],
-	"color_scheme": "Packages/Color Scheme - Wallaby/Boxy Yesterday.tmTheme",
+	"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Yesterday.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 
 	"file_exclude_patterns":
@@ -61,6 +61,8 @@
 	"ignored_packages":
 	[
 		"GitSavvy",
+		"LESS",
+		"SCSS",
 		"Vintage",
 	],
 	"indent_guide_options":
@@ -74,7 +76,7 @@
 		"*.min.js"
 	],
 	// Sets whether the indexer should exclude files ignored by git
-	"index_exclude_gitignore": true,
+	"index_exclude_gitignore": false,
 	"original_color_scheme": "Packages/Color Scheme - Wallaby/Boxy Yesterday.tmTheme",
 	"rulers":
 	[
@@ -107,4 +109,6 @@
 	"ui_separator": true,
 	"ui_wide_scrollbars": true,
 	"use_tab_stops": false,
+	/*"dark_theme": "Default.sublime-theme",*/
+	/*"light_theme": "Default.sublime-theme",*/
 }

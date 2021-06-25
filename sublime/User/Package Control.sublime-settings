@@ -20,10 +20,10 @@
 		"Indent XML",
 		"JsPrettier",
 		"LESS",
+		"MarkdownPreview",
 		"MarkdownTOC",
 		"Package Control",
 		"Python Fix Imports",
-		"Python PEP8 Autoformat",
 		"SCSS",
 		"SideBarEnhancements",
 		"Sublime Files",
@@ -37,6 +37,5 @@
 		"TypeScript Syntax",
 		"Vue Syntax Highlight",
 		"Vuejs Snippets",
-		"Vuetify",
 	],
 }
