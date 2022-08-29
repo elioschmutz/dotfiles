@@ -15,6 +15,7 @@
 		"EditorConfig",
 		"ESLint Fix",
 		"Git",
+		"GitSavvy",
 		"Highlight Trailing Whitespace",
 		"HTML-CSS-JS Prettify",
 		"Indent XML",
@@ -22,6 +23,7 @@
 		"LESS",
 		"MarkdownPreview",
 		"MarkdownTOC",
+		"OmniSharp",
 		"Package Control",
 		"Python Fix Imports",
 		"SCSS",
@@ -38,4 +40,5 @@
 		"Vue Syntax Highlight",
 		"Vuejs Snippets",
 	],
+	"debug": true,
 }

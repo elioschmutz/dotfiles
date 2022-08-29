@@ -5,7 +5,10 @@
         "eslint": {
             "selector": "text.html.vue, source.js - meta.attribute-with-value",
             // "executable": "/Users/elioschmutz/.nvm/versions/node/v10.16.2/bin/eslint_d"
-            "executable": "/Users/elioschmutz/.nvm/versions/node/v11.15.0/bin/eslint_d"
+            //"executable": "/Users/elioschmutz/.nvm/versions/node/v11.15.0/bin/eslint_d"
+        },
+        "flake8": {
+            "executable": "/Users/elioschmutz/bin/flake8"
         }
     }
 }

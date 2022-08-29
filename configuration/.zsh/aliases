@@ -28,6 +28,9 @@ alias apache2ctl='sudo /opt/local/apache2/bin/apachectl'
 #alias mysqlstop='mysqladmin5 -u root shutdown'
 #alias mysql='mysql5'
 
+# js
+alias tw='yarn test:unit $1 --watch'
+
 # git
 alias gc='git commit -m'
 alias gcp='git cherry-pick'
@@ -50,6 +53,7 @@ alias rwt='git commit --amend --no-edit --date=now; git rebase --continue'
 alias gl='git log'
 alias gla='git log --graph --all'
 alias gca='git commit --amend'
+alias gcr='git commit -m "wip"; git stash; git rebase -i origin/master; git stash apply'
 rationalise-dot() {
 if [[ $LBUFFER = *.. ]]; then
     LBUFFER+=/..

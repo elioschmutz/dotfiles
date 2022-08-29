@@ -7,7 +7,7 @@
 			"selector": "source.python",
 		}
 	],
-	"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Yesterday.tmTheme",
+	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Yesterday.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 
 	"file_exclude_patterns":
@@ -56,11 +56,10 @@
 		".cache",
 		"parts/solr"
 	],
-	"font_size": 11,
+	"font_size": 10,
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"GitSavvy",
 		"LESS",
 		"SCSS",
 		"Vintage",
@@ -77,7 +76,7 @@
 	],
 	// Sets whether the indexer should exclude files ignored by git
 	"index_exclude_gitignore": false,
-	"original_color_scheme": "Packages/Color Scheme - Wallaby/Boxy Yesterday.tmTheme",
+	"original_color_scheme": "Packages/User/Color Highlighter/themes/Boxy Yesterday.tmTheme",
 	"rulers":
 	[
 		80,
@@ -111,4 +110,5 @@
 	"use_tab_stops": false,
 	/*"dark_theme": "Default.sublime-theme",*/
 	/*"light_theme": "Default.sublime-theme",*/
+	"auto_complete": true,
 }
