@@ -1,4 +1,5 @@
 {
 	"trailing_spaces_trim_on_save": true,
-    "trailing_spaces_highlight_color" : ""
+    "trailing_spaces_highlight_color" : "",
+	"highlight_color": "",
 }

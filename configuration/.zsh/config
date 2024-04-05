@@ -76,3 +76,13 @@ export PYTHON27="/opt/local/bin/python2.7"
 #rbenv
 eval "$(rbenv init - zsh)"
 export HISTTIMEFORMAT="%d/%m/%y %T "
+
+# Android SDK
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$ANDROID_HOME/platform-tools:$PATH
+
+# Flutter
+export PATH=$HOME/projects/flutter/bin:$PATH
+
+# SSL Decrypt - Whireshark
+export SSLKEYLOGFILE=~/.ssl-key.log

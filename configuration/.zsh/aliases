@@ -28,6 +28,9 @@ alias apache2ctl='sudo /opt/local/apache2/bin/apachectl'
 #alias mysqlstop='mysqladmin5 -u root shutdown'
 #alias mysql='mysql5'
 
+# Kubernetes
+alias k='kubectl'
+
 # js
 alias tw='yarn test:unit $1 --watch'
 

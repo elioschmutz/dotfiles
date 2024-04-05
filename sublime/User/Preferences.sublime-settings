@@ -60,7 +60,6 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"LESS",
 		"SCSS",
 		"Vintage",
 	],
@@ -111,4 +110,5 @@
 	/*"dark_theme": "Default.sublime-theme",*/
 	/*"light_theme": "Default.sublime-theme",*/
 	"auto_complete": true,
+	"index_files": true,
 }
