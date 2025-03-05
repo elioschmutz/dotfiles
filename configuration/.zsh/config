@@ -2,15 +2,11 @@
 
 PS1='%3~$(git_branch_for_prompt)%# '
 #PS1='%3~$(git_branch_for_prompt)$%# '
-#export EDITOR='/usr/local/Cellar/emacs/HEAD/Emacs.app/Contents/MacOS/bin/emacsclient'
-PATH="$HOME/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/git/bin:$PATH"
-PATH="$HOME/.bin:$HOME/.willgit/bin:$PATH"
-PATH="/Library/Frameworks/Python.framework/Versions/2.4.6/bin/:$PATH"
-PATH="/System/Library/Frameworks/Python.framework/Versions/2.4/bin/:$PATH"
-PATH="$HOME/.rbenv/bin:$PATH"
-PATH="$HOME/Library/Android/sdk:$HOME/Library/Android/sdk/platform-tools:$PATH"
-export PATH=/opt/subversion/bin:$PATH
-MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
+#PATH="$HOME/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/git/bin:$PATH"
+#PATH="$HOME/.bin:$HOME/.willgit/bin:$PATH"
+#PATH="/Library/Frameworks/Python.framework/Versions/2.4.6/bin/:$PATH"
+#PATH="/System/Library/Frameworks/Python.framework/Versions/2.4/bin/:$PATH"
+#MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
 TERM="xterm"; export TERM               # for the linux servers: use normal xterm
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
@@ -67,22 +63,22 @@ bindkey "^D"    backward-delete-word    # Ctrl+D
 bindkey "^O"    overwrite-mode          # Ctrl+O
 
 # GEVER
-export GEVER_BUILDOUT=/Users/elioschmutz/projects/opengever.core
-export LDFLAGS="-L/usr/local/opt/openssl@1.1/lib"
-export CPPFLAGS="-I/usr/local/opt/openssl@1.1/include"
+#export GEVER_BUILDOUT=/Users/elioschmutz/projects/opengever.core
+#export LDFLAGS="-L/usr/local/opt/openssl@1.1/lib"
+#export CPPFLAGS="-I/usr/local/opt/openssl@1.1/include"
 # pythons
-export PYTHON26="/opt/local/bin/python2.6"
-export PYTHON27="/opt/local/bin/python2.7"
+#export PYTHON26="/opt/local/bin/python2.6"
+#export PYTHON27="/opt/local/bin/python2.7"
 #rbenv
-eval "$(rbenv init - zsh)"
-export HISTTIMEFORMAT="%d/%m/%y %T "
+#eval "$(rbenv init - zsh)"
+#export HISTTIMEFORMAT="%d/%m/%y %T "
 
 # Android SDK
-export ANDROID_HOME=$HOME/Library/Android/sdk
-export PATH=$ANDROID_HOME/platform-tools:$PATH
+#export ANDROID_HOME=$HOME/Library/Android/sdk
+#export PATH=$ANDROID_HOME/platform-tools:$PATH
 
 # Flutter
-export PATH=$HOME/projects/flutter/bin:$PATH
+#export PATH=$HOME/projects/flutter/bin:$PATH
 
 # SSL Decrypt - Whireshark
-export SSLKEYLOGFILE=~/.ssl-key.log
+#export SSLKEYLOGFILE=~/.ssl-key.log
