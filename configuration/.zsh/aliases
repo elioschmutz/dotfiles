@@ -17,9 +17,12 @@ alias Preview='/Applications/Preview.app/Contents/MacOS/Preview'
 alias mtc='sub ./docs/HISTORY.txt'
 
 # 4tw
-alias sgu='cd ~/projects/gever-ui'
-alias sgc='cd ~/projects/opengever.core'
-alias sgd='cd ~/projects/opengever-deployments'
+alias sgu='cd ~/projects/fabasoft/gever-ui'
+alias sgc='cd ~/projects/fabasoft/opengever.core'
+alias sgd='cd ~/projects/fabasoft/opengever-deployments'
+
+# docker
+alias dc='docker compose'
 
 # Apache / mysql
 alias amstart='sudo /opt/local/apache2/bin/apachectl start; sudo /opt/local/bin/mysqld_safe5 &'
