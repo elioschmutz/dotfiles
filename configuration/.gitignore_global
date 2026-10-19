@@ -22,3 +22,11 @@ uuid.txt
 venv
 *.ignore
 .git-blame-ignore-revs
+CLAUDE.md
+.claude
+claude_tasks
+node_modules
+
+**/.claude/settings.local.json
+
+**/.claude/.cc-writes/

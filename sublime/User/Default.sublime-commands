@@ -1,5 +1,0 @@
-[
-   { "caption": "Run Gever UI tests for current file",
-     "command": "run_gever_ui_tests"
-   },
-]

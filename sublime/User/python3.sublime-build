@@ -1,5 +1,0 @@
-{
-  "cmd": ["/Users/elioschmutz/virtualenv/sublime-python-3/bin/python", "-u", "$file"],
-  "file_regex": "^ ]*File \"(...*?)\", line ([0-9]*)",
-  "selector": "source.python"
-}

@@ -1,6 +1,7 @@
 [user]
     name = Elio Schmutz
-    email = e.schmutz@4teamwork.ch
+    email = elio.schmutz@humanlayer.de
+	signingkey = /Users/elioschmutz/.ssh/id_ed25519_elio_schmutz_humanlayer.pub
 [alias]
     co = checkout
 [color]
@@ -26,3 +27,7 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true

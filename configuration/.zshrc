@@ -1,8 +1,5 @@
-source ~/.zsh/config
-source ~/.zsh/aliases
-source ~/.zsh/completion
-
-# include ~/.zshlocal if existing:
-if [[ -s ~/.zshlocal ]] ; then source ~/.zshlocal ; fi
+source ~/.dotfiles/configuration/zsh/config
+source ~/.dotfiles/configuration/zsh/aliases
+source ~/.dotfiles/configuration/zsh/completion
 
 autoload -Uz compinit && compinit -i
